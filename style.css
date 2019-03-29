@@ -1,102 +1,3 @@
-/* 
-.Notification-module__Notification {
-  position: fixed;
-  left: 2%;
-  bottom: 5%;
-  width: 270px;
-  min-height: 58px;
-  max-height: 100px;
-  margin-top: 15px;
-  pointer-events: all;
-  opacity: 0;
-  border-radius: 3px;
-  background: rgba(0, 0, 0, .8);
-  background-repeat: no-repeat;
-  background-position: 15px 12px;
-  background-size: 34px 34px;
-  transition: opacity .3s, max-height .3s, margin-top .3s, transform .3s;
-  transform: translateX(-400px)
-}
-.Notification-module__Notification:last-child {
-  margin-bottom: 0
-}
-
-.Notification-module__Notification:hover .Notification-module__Notification__close {
-  display: block
-}
-
-.Notification-module__Notification_hidden_full {
-  display: none
-}
-
-.Notification-module__Notification_type_views,
-.Notification-module__Notification_type_viewsOverall {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNCIgaGVpZ2h0PSIzNCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGN4PSIxNyIgY3k9IjE3IiByPSIxNyIgZmlsbD0iI0ZGRiIvPjxwYXRoIGZpbGw9IiM5QTlBOUEiIGQ9Ik0xNi4yOTQgMjQuMTE4YzYuMjM4IDAgMTEuMDc1LTcuMDgyIDExLjI5NC03LjA2LjIyLjAyNC01LjA1Ni03LjA1OC0xMS4yOTQtNy4wNThDMTAuMDU3IDEwIDQuOTY2IDE2LjY3IDUgMTcuMDZjLjAzNC4zODYgNS4wNTcgNy4wNTggMTEuMjk0IDcuMDU4em0wLTIuODI0YTQuMjM1IDQuMjM1IDAgMSAwIDAtOC40NyA0LjIzNSA0LjIzNSAwIDAgMCAwIDguNDd6Ii8+PHBhdGggZmlsbD0iIzlBOUE5QSIgZD0iTTE2LjI5NCAxOS44ODJhMi44MjQgMi44MjQgMCAxIDAgMC01LjY0NyAyLjgyNCAyLjgyNCAwIDAgMCAwIDUuNjQ3eiIvPjwvZz48L3N2Zz4=)
-}
-
-.Notification-module__Notification__content {
-  font-size: 13px;
-  line-height: 15px;
-  padding: 12px 30px 12px 64px;
-  color: #fff
-}
-
-.Notification-module__Notification__close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: none;
-  width: 11px;
-  height: 11px;
-  cursor: pointer;
-  opacity: .3;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyMy4xIj48cGF0aCBkPSJNMTAuMyAxMS41TC4zIDEuOUMtLjEgMS41LS4xLjguNC4zLjgtLjEgMS41LS4xIDIgLjNsNC43IDQuNmguMWw1LjIgNSA1LjItNUwyMiAuM2MuNS0uNCAxLjItLjQgMS42IDAgLjUuNS41IDEuMi4xIDEuNmwtMTAgOS42IDEwIDkuN2MuNC40LjQgMS4xLS4xIDEuNi0uNC40LTEuMS40LTEuNiAwbC02LjUtNi4zLTMuNS0zLjQtMy41IDMuNEwyIDIyLjhjLS41LjQtMS4yLjQtMS42IDAtLjUtLjUtLjUtMS4yLS4xLTEuNmwxMC05Ljd6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) no-repeat 5px;
-  background-position: 50% 50%;
-  background-size: 11px 11px
-}
-
-.Notification-module__Notification__close:hover {
-  opacity: .8
-}
-
-@media (max-width: 768px) {
-  .Notification-module__Notification {
-    margin-bottom: 5px;
-    border-radius: 4px;
-    background-image: none
-  }
-  
-  .Notification-module__Notification .Notification-module__Notification__content {
-    font-size: 12px;
-    padding: 8px 12px
-  }
-  
-  .Notification-module__Notification .Notification-module__Notification__close {
-    display: none
-  }
-}
-
-
-
-.Notification-module__Notification_visible {
-  opacity: 1;
-  transform: translateX(0)
-}
-
-.Notification-module__Notification_hidden {
-  overflow: hidden;
-  max-height: 0;
-  margin-top: 0;
-  opacity: 0
-}
-
-@media screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait) {
-  .Notification-module__Notification .Notification-module__Notification__content {
-    font-size: 11px
-  }
-} */
-
-
 .Notification {
   position: fixed;
   left: 2%;
@@ -118,27 +19,18 @@
 .Notification:last-child {
   margin-bottom: 0
 }
-
 .Notification:hover .Notification__close {
   display: block
 }
-
-.Notification_hidden_full {
-  display: none
-}
-
-.Notification_type_views,
 .Notification_type_viewsOverall {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNCIgaGVpZ2h0PSIzNCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGN4PSIxNyIgY3k9IjE3IiByPSIxNyIgZmlsbD0iI0ZGRiIvPjxwYXRoIGZpbGw9IiM5QTlBOUEiIGQ9Ik0xNi4yOTQgMjQuMTE4YzYuMjM4IDAgMTEuMDc1LTcuMDgyIDExLjI5NC03LjA2LjIyLjAyNC01LjA1Ni03LjA1OC0xMS4yOTQtNy4wNThDMTAuMDU3IDEwIDQuOTY2IDE2LjY3IDUgMTcuMDZjLjAzNC4zODYgNS4wNTcgNy4wNTggMTEuMjk0IDcuMDU4em0wLTIuODI0YTQuMjM1IDQuMjM1IDAgMSAwIDAtOC40NyA0LjIzNSA0LjIzNSAwIDAgMCAwIDguNDd6Ii8+PHBhdGggZmlsbD0iIzlBOUE5QSIgZD0iTTE2LjI5NCAxOS44ODJhMi44MjQgMi44MjQgMCAxIDAgMC01LjY0NyAyLjgyNCAyLjgyNCAwIDAgMCAwIDUuNjQ3eiIvPjwvZz48L3N2Zz4=)
 }
-
 .Notification__content {
   font-size: 13px;
   line-height: 15px;
   padding: 12px 30px 12px 64px;
   color: #fff
 }
-
 .Notification__close {
   position: absolute;
   top: 10px;
@@ -152,11 +44,13 @@
   background-position: 50% 50%;
   background-size: 11px 11px
 }
-
 .Notification__close:hover {
   opacity: .8
 }
-
+.Notification_visible {
+  opacity: 1;
+  transform: translateX(0)
+}
 @media (max-width: 768px) {
   .Notification {
     margin-bottom: 5px;
@@ -173,21 +67,6 @@
     display: none
   }
 }
-
-
-
-.Notification_visible {
-  opacity: 1;
-  transform: translateX(0)
-}
-
-.Notification_hidden {
-  overflow: hidden;
-  max-height: 0;
-  margin-top: 0;
-  opacity: 0
-}
-
 @media screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait) {
   .Notification .Notification__content {
     font-size: 11px
